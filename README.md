@@ -146,8 +146,8 @@ Our project evaluates this mechanism at the industry level using PPI data.
 
 ```
 .
-├── v-Steel.data/          Dataset needed for Steel
-├── STEEL_PRICE_rebased/   Code used to analyze Steel price
+├── v-Steel.data/          Code used to analyze Steel price
+├── STEEL_PRICE_rebased/   Datasets containing Steel Prices
 └── README.md              Project overview and documentation
 ```
 # Limitations
