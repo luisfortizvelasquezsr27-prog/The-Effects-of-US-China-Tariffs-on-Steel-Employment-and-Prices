@@ -29,7 +29,6 @@ Producer price responses
 # Research Question
 
 Our central research question is:
-
 How did exposure to the 2018–2019 U.S.–China tariffs affect employment dynamics in import-competing industries, and to what extent were labor market gains offset by price increases?
 
 Sub-questions include:
