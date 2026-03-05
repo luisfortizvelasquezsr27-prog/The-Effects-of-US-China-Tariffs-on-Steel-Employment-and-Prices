@@ -72,8 +72,24 @@ We focus specifically on industries heavily affected by tariffs — particularly
 * Treated industry (steel) & Control industry (non-tariff-affected metal manufacturing)
 * Pre-tariff period (2015–2017) & Post-tariff period (2019)
 
-* Regression specification:
-#insertequation 
+* **Regression specification:**
+  
+$$
+\log(Employment_{it}) =
+\beta_0 +
+\beta_1 Treated_i +
+\beta_2 Post_t +
+\beta_3 (Treated_i \times Post_t) +
+\gamma_i +
+\delta_t +
+\epsilon_{it}
+$$
+
+**Where:**
+
+- $\beta_3$ captures the causal effect of tariff exposure.
+- $\gamma_i$ represents industry fixed effects.
+- $\delta_t$ represents year fixed effects.
 
 ### Price Pass-Through Analysis
 
@@ -126,7 +142,14 @@ Our project evaluates this mechanism at the industry level using PPI data.
 
 > Version control and collaboration via GitHub.
 
+# Repository Structure
 
+```
+.
+├── v-Steel.data/          Dataset needed for Steel
+├── STEEL_PRICE_rebased/   Code used to analyze Steel price
+└── README.md              Project overview and documentation
+```
 # Limitations
 
   **I.** Marginal statistical significance in employment estimates
@@ -153,12 +176,12 @@ is **critical** for evaluating current and future *tariff expansions*
 
 Autor, David H., David Dorn, and Gordon H. Hanson. 2013. “The China Syndrome: Local
 Labor Market Effects of Import Competition in the United States.” American Economic
-Review 103(6), p. 2121–68.
-
-Board of Governors of the Federal Reserve System. 2025. “Detecting Tariff Effects on
-Consumer Prices in Real Time.” Technical Report, Board of Governors of the Federal Re-
-serve System.
+Review 103(6), p. 2121–68. [[Link]](https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121)
 
 Flaaen, Aaron, and Justin Pierce. 2019. “Disentangling the Effects of the 2018–2019
 Tariffs on a Globally Connected U.S. Manufacturing Sector.” Technical Report 2019-086,
-Board of Governors of the Federal Reserve System, Washington, DC. 
+Board of Governors of the Federal Reserve System, Washington, DC. [[Link]](https://doi.org/10.17016/FEDS.2019.086)
+
+Minton, Robert, and Mariano Somale (2025). "Detecting Tariff Effects on Consumer Prices in 
+Real Time," FEDS Notes. Washington: Board of Governors of the Federal Reserve System, May 09, 2025, 
+[[Link]](https://doi.org/10.17016/2380-7172.3786)
