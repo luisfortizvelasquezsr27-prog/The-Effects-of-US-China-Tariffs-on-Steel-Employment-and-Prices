@@ -1,3 +1,4 @@
+# Add Graphs, Tables,  fix Methology, and add links to where we got data. As well, as fix the formulas in the methology
 # Cost–Benefit Analysis of U.S.–China Tariffs (2018–2019)
 Group Members:
 
@@ -66,7 +67,7 @@ We focus specifically on industries heavily affected by tariffs — particularly
 - *Producer Price Index (PPI)* data from the Bureau of Labor Statistics.
 > This allows us to test whether tariff-protected industries experienced larger price increases relative to baseline trends.
 
-# Methodology
+# Methodology (fix this and edit)
 ### Difference-in-Differences (DiD) Framework
 
 **We implement a Difference-in-Differences model comparing:**
@@ -154,28 +155,30 @@ $$
 - **Estimated employment increase in steel: ~12.5%**
 - **Marginal statistical significance (p ≈ 0.097)**
 
-### Interpretation:
+**Interpretation:**
 - Suggestive evidence of **employment gains**
 - **NOT** strong enough to conclusively attribute gains solely to tariffs
+
+
 
 ### Price Effects
 
 Steel producer prices increased following tariff implementation.
 
-Consistent with previous research, our results suggest:
-
+**Consistent with previous research, our results suggest:**
 - Tariff costs were largely passed through to U.S. buyers
 - Foreign exporters did not fully absorb tariff costs
 
+
+
 ### Steel Purchasing Behavior
 
-Our analysis of steel transaction quantities shows:
+**Our analysis of steel transaction quantities shows:**
 - Substantial increase in steel purchases prior to tariff implementation
 - Slight decline in purchasing after tariffs took effect
 
-### Interpretation
-
-This pattern may indicate:
+**Interpretation:**
+**This pattern may indicate:**
 - Pre-tariff stockpiling behavior by firms
 - Reduced demand following price increases.
 
