@@ -165,7 +165,7 @@ This allows us to compare average purchasing levels and identify whether firms a
 
 # Results
 ### Employment Effects
-![Employment Change](figures/employment_change_post_tariff.png)
+![Employment Change](figures/employment_trends.png)
 
 ### Price Effects
 ![Steel Purchases](figures/steel_consumer_cost_plot.png)
@@ -189,12 +189,12 @@ Steel Purchase Quantity Table
 
 # Interpretation
 ### Employment Effects
-- **Estimated employment increase in steel: ~12.5%**
-- **Marginal statistical significance (p ≈ 0.097)**
+- **Estimated employment increase in steel: ~17.28%**
+- **Marginal statistical significance (p ≈ 0.0343)**
 
 **Interpretation:**
-- Suggestive evidence of **employment gains**
-- **NOT** strong enough to conclusively attribute gains solely to tariffs
+- Statistically significant
+- Increase in employment is a direct effect of the tariffs assuming parallel trends between industries
 
 
 ### Price Effects
@@ -254,12 +254,12 @@ Steel producer prices increased following tariff implementation.
 │   └── qcew_employment/
 │
 ├── figures/
-│   ├── steel_price_trends.png
-│   └── steel_transaction_quantities.png
+│   ├── employment_trends.png
+│   └── steel_transactions_plot.png
 │
 ├── notebooks/
-│   ├── employment_did_analysis.ipynb
-│   └── steel_transaction_analysis.ipynb
+│   ├── steel_employment_code.ipynb (Employment Analysis)
+│   └── consumer_cost_estimate.ipynb (Price analysis)
 │
 └── README.md
 ```
