@@ -76,8 +76,11 @@ We focus specifically on industries heavily affected by tariffs — particularly
 > This allows us to test whether tariff-protected industries experienced larger price increases relative to baseline trends.
 
 
-# Methodology (fix this and edit)
-### Difference-in-Differences (DiD) Framework
+# Methodology
+
+### For Employment:
+
+# Difference-in-Differences (DiD) Framework
 
 **We implement a Difference-in-Differences model comparing:**
 * Treated industry (steel) & Control industry (non-tariff-affected metal manufacturing)
@@ -100,7 +103,9 @@ $$
 - $\gamma_i$ represents industry fixed effects.
 - $\delta_t$ represents year fixed effects.
 
-### Price Change Measurement
+### For Prices:
+
+# Price Change Measurement
 * Statistically significant increases in producer prices
 * Evidence of tariff pass-through
 *This evaluates whether consumers and downstream firms bore the cost of protection.*
@@ -170,7 +175,6 @@ This allows us to compare average purchasing levels and identify whether firms a
 ### Price Effects
 ![Steel Purchases](figures/steel_consumer_cost_plot.png)
 
-### Steel Purchasing Behavior
 ![Steel Transactions](figures/steel_transactions_plot.png) 
 
 Steel Purchase Quantity Table
