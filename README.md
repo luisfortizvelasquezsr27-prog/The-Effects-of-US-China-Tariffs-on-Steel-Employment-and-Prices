@@ -81,9 +81,8 @@ We hypothesize that the 2018–2019 U.S.–China tariffs generated a decrease in
 
 # Methodology
 
-### For Employment:
 
-# Difference-in-Differences (DiD) Framework
+## Difference-in-Differences (DiD) Framework
 
 **We implement a Difference-in-Differences model comparing:**
 * Treated industry (steel) & Control industry (non-tariff-affected metal manufacturing)
@@ -106,9 +105,8 @@ $$
 - $\gamma_i$ represents industry fixed effects.
 - $\delta_t$ represents year fixed effects.
 
-### For Prices:
 
-# Price Change Measurement
+## Price Change Measurement
 * Statistically significant increases in producer prices
 * Evidence of tariff pass-through
 *This evaluates whether consumers and downstream firms bore the cost of protection.*
@@ -131,7 +129,7 @@ $$
 - $\beta_1$ controls for the underlying trend
 
 
-### Monthly Aggregation of Steel Purchases
+## Monthly Aggregation of Steel Purchases
 To analyze purchasing behavior surrounding tariff implementation, we aggregate steel transaction quantities to the monthly level:
 
 $$
@@ -211,30 +209,29 @@ This allows us to compare average purchasing levels and identify whether firms a
 | 2019-01 | 218.70   |
 | 2019-07 | 202.50   |
 
-# Interpretation
+# Findings
 ### Employment Effects
 - **Estimated employment increase in steel: ~17.28%**
 - **Statistical significance (p ≈ 0.0343)**
 
-**Interpretation:**
-- Statistically significant
-- Increase in employment is a direct effect of the tariffs assuming parallel trends between industries
-
-
 ### Price Effects
 Steel producer prices increased following tariff implementation.
-
-**Consistent with previous research, our results suggest:**
-- Tariff costs were largely passed through to U.S. buyers
-- Foreign exporters did not fully absorb tariff costs
 
 ### Steel Purchasing Behavior
 **Our analysis of steel transaction quantities shows:**
 - Substantial increase in steel purchases prior to tariff implementation
 - Slight decline in purchasing after tariffs took effect
 
-**Interpretation:**
-**This pattern may indicate:**
+# Interpretation
+### Employment Effects
+- Statistically significant
+- Increase in employment is a direct effect of the tariffs assuming parallel trends between industries
+
+### Price Effects
+- Tariff costs were largely passed through to U.S. buyers
+- Foreign exporters did not fully absorb tariff costs
+
+### Steel Purchasing Behavior
 - Pre-tariff stockpiling behavior by firms
 - Reduced demand following price increases.
 
