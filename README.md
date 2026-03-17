@@ -1,4 +1,4 @@
-# Add Graphs, Tables,  fix Methology, and add links to where we got data. As well, as fix the formulas in the methology
+# Add Graphs, Tables,  and add links to where we got data.
 # Cost–Benefit Analysis of U.S.–China Tariffs (2018–2019)
 Group Members:
 
