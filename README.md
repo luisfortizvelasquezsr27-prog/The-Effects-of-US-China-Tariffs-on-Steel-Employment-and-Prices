@@ -215,7 +215,7 @@ This allows us to compare average purchasing levels and identify whether firms a
 - **Statistical significance (p ≈ 0.0343)**
 
 ### Price Effects
-Steel producer prices increased following tariff implementation.
+- Steel producer prices increased following tariff implementation.
 
 ### Steel Purchasing Behavior
 **Our analysis of steel transaction quantities shows:**
@@ -271,8 +271,8 @@ Steel producer prices increased following tariff implementation.
 ```
 .
 ├── data/
-│   ├── steel_prices/STEEL_PRICE_rebased.csv
-│   └── qcew_employment/steel_employment_annual.csv
+│   ├── STEEL_PRICE_rebased.csv
+│   └── steel_employment_annual.csv
 │
 ├── figures/
 │   ├── employment_trends.png
@@ -290,11 +290,21 @@ Steel producer prices increased following tariff implementation.
 ```
 # Limitations
 
-  **I.** Limited post-tariff window (COVID-19 prevents clean extension into 2020–2021)
+**I.** While our results employment were statistically significant at (p = 0.0343), the valid-
+ity of any DiD framework rests upon the parallel trends assumption, in other words, it must
+be true that in the absence of treatment, the treated and control groups would have followed
+similar trends over time. Other macroeconomic factors, such as general economic growth
+or industry-specific trends, may also have influenced employment during this period.
   
-  **II.** Potential confounding factors (automation, macroeconomic conditions)
+**II.** The tariffs were implemented gradually and sporadically between 2018 and 2019
+under the administration of Donald Trump. Because the policy changes occurred at differ-
+ent points in time, isolating their precise effect on employment and prices is challenging.
   
-  **III.** Small number of industries analyzed
+**III.** While it would have been valuable to extend the analysis to 2020 and 2021 to ex-
+amine longer-term impacts, the economic disruptions caused by the COVID-19 pandemic
+significantly altered global trade patterns and labor markets. Including these years would
+make it difficult to distinguish the effects of tariffs from the broader economic shock caused
+by the pandemic.
   
 
 # Policy Relevance
@@ -309,6 +319,19 @@ Steel producer prices increased following tariff implementation.
 
 is **critical** for evaluating the net economic effects of protectionist trade policy.
 
+# Future Work 
+As an extension of this research, future analysis could examine other manufacturing sectors
+that were affected by tariffs during the same period. Initially, we were considering analyz-
+ing and comparing the effect of tariffs across three sectors: steel, solar panels, and washing
+machines. Nevertheless, due to the limited time available to complete the project, conduct-
+ing all three evaluations was not feasible. Industries such as solar panels and washing ma-
+chines experienced similar trade protections and could provide additional insight into how
+tariffs influence both labor outcomes and consumer prices. Analyzing employment trends
+and price changes in these sectors between 2015 and 2019 could help determine whether
+the patterns observed in the steel industry are consistent across other tariff-protected in-
+dustries.
+
+
 # References
 
 Autor, David H., David Dorn, and Gordon H. Hanson. 2013. “The China Syndrome: Local
@@ -322,3 +345,10 @@ Board of Governors of the Federal Reserve System, Washington, DC. [[Link]](https
 Minton, Robert, and Mariano Somale (2025). "Detecting Tariff Effects on Consumer Prices in 
 Real Time," FEDS Notes. Washington: Board of Governors of the Federal Reserve System, May 09, 2025, 
 [[Link]](https://doi.org/10.17016/2380-7172.3786)
+
+U.S. Bureau of Labor Statistics. “Databases, Tables Calculators by Subject.”
+[[Link]](https://data.bls.gov/timeseries/wpu101704)
+
+U.S. Bureau of Labor Statistics. “Quarterly Census of Employment and Wages
+(QCEW) Downloadable Data Files.” 
+[[Link]](https://www.bls.gov/cew/downloadabledata-files.htm)
