@@ -46,7 +46,7 @@ We focus specifically on industries heavily affected by tariffs — particularly
 **We use industry-level employment data from:**
 
 1. U.S. Bureau of Labor Statistics (BLS)
-2. Quarterly Census of Employment and Wages (QCEW)
+2. [Quarterly Census of Employment and Wages (QCEW)](https://www.bls.gov/cew/downloadable-data-files.htm)
     - *Coverage:* 2015–2019
     - *Unit of analysis:* State–Industry–Year
 
@@ -55,7 +55,7 @@ We focus specifically on industries heavily affected by tariffs — particularly
 - Average weekly wages
 - Industry classification (NAICS codes)
 - Treatment Industry
-- NAICS 331110: Iron and Steel Mills and Ferroalloy Manufacturing
+- [NAICS 331110](https://data.bls.gov/cew/apps/table_maker/v4/table_maker.htm#type=1&year=2025&qtr=3&own=5&ind=331110&supp=0): Iron and Steel Mills and Ferroalloy Manufacturing
 
 **Control Industry:** *NAICS 331523* (Nonferrous Metal Die-Casting)                                                                                            
  > We construct average annual employment from quarterly values and log-transform employment for interpretation in percentage terms.
@@ -64,7 +64,7 @@ We focus specifically on industries heavily affected by tariffs — particularly
 ### Price Data
 
 **To measure price responses, we use:**
-- *Producer Price Index (PPI)* data from the Bureau of Labor Statistics.
+- [*Producer Price Index (PPI)*](https://data.bls.gov/timeseries/wpu101704) data from the Bureau of Labor Statistics.
 > This allows us to test whether tariff-protected industries experienced larger price increases relative to baseline trends.
 
 
