@@ -85,7 +85,7 @@ We hypothesize that the 2018–2019 U.S.–China tariffs generated a decrease in
 **We implement a Difference-in-Differences model comparing:**
 * Treated industry (steel) & Control industry (non-tariff-affected metal manufacturing)
 * Pre-tariff period (2015–2017) & Post-tariff period (2019)
-Both of the above sectors lie within the same broader industry and have many similarities. The only difference, however, is that the treated industry is affected by the tariffs while the control one is not. This allows us to control for a variety of macroeconomic factors and isolate for the effect of the tariffs after they were enacted (2019). For this reason, our identification strategy relies on the assumption that, absent tariffs, employment trends in the steel industry and the control industry would have evolved in parallel.
+Both of the above sectors lie within the same broader industry, sharing similar exposure to macroeconomic conditions, but only steel is directly affected by the tariff. Comparing both industries would allow us to isolate for the effect of the tariffs after they were enacted. For this reason, our identification strategy relies on the assumption that, absent tariffs, employment trends in the steel industry and the control industry would have evolved in parallel.
   
 * **Regression specification:**
   
@@ -96,6 +96,8 @@ $$
 **Where:**
 - $\alpha_i$: state fixed effects  
 - $\gamma_t$: year fixed effects
+  
+Identification comes from differential post-2018 changes in employment between tariff-exposed and non-exposed industries
 
 
 ## Price Change Measurement
