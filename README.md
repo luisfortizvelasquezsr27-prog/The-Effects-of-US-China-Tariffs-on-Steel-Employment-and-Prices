@@ -4,12 +4,8 @@
   <img src="figures/steel_transactions_plot.png" width="45%" />
 </p>
 
-> Left: Cost of Steel Purchases
-
-> Right: Quantity of Steel Purchases
 
 > Collaborators: Melissa Ballesteros and Viviana Perez
-
 
 
 ## Executive Summary:
