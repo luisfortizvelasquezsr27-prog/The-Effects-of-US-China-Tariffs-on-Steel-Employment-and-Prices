@@ -88,20 +88,12 @@ We hypothesize that the 2018–2019 U.S.–China tariffs generated a decrease in
 * **Regression specification:**
   
 $$
-\log(Employment_{it}) =
-\beta_0 +
-\beta_1 Treated_i +
-\beta_2 Post_t +
-\beta_3 (Treated_i \times Post_t) +
-\gamma_i +
-\delta_t +
-\epsilon_{it}
+\log(emp_{it}) = \beta_0 + \beta_1 (treated_i \times post_t) + \alpha_i + \gamma_t + \epsilon_{it}
 $$
 
 **Where:**
-- $\beta_3$ captures the causal effect of tariff exposure.
-- $\gamma_i$ represents industry fixed effects.
-- $\delta_t$ represents year fixed effects.
+- $\alpha_i$: state fixed effects  
+- $\gamma_t$: year fixed effects
 
 
 ## Price Change Measurement
