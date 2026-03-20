@@ -10,7 +10,7 @@
 
 ## Executive Summary:
 
-I estimate the effect of the 2018–2019 U.S.–China steel tariffs using a two-way fixed-effects difference-in-differences design. Steel employment rose by about 17.3% in the treated industry, but producer prices also increased materially, consistent with tariff pass-through to U.S. buyers. The project combines QCEW employment data, BLS PPI data, and steel transaction data to evaluate whether labor-market gains were offset by higher costs.
+We estimate the effect of the 2018–2019 U.S.–China steel tariffs using a two-way fixed-effects difference-in-differences design. Steel employment rose by about 17.3% in the treated industry, but producer prices also increased materially, consistent with tariff pass-through to U.S. buyers. The project combines QCEW employment data, BLS PPI data, and steel transaction data to evaluate whether labor-market gains were offset by higher costs.
 
 # Introduction
 
